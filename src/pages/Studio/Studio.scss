@@ -1,0 +1,85 @@
+@import '../../assets/styles/variables';
+
+.studio-page {
+  padding: 5rem 0;
+  background-color: $primary-light;
+}
+
+.page-header {
+  text-align: center;
+  max-width: 800px;
+  margin: 0 auto 3rem;
+  padding: 0 1rem;
+  
+  h1 {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+    
+    span {
+      color: $accent;
+    }
+  }
+  
+  p {
+    font-size: 1.1rem;
+    color: lighten($secondary-dark, 20%);
+  }
+}
+
+.studio-about {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  max-width: 1200px;
+  margin: 0 auto 4rem;
+  padding: 0 1rem;
+  
+  @media (min-width: $breakpoint-md) {
+    flex-direction: row;
+    align-items: center;
+  }
+}
+
+.about-content {
+  flex: 1;
+  
+  h2 {
+    font-size: 2rem;
+    margin-bottom: 1.5rem;
+    color: $secondary-dark;
+  }
+  
+  p {
+    margin-bottom: 1rem;
+    line-height: 1.6;
+  }
+}
+
+.about-image {
+  flex: 1;
+  
+  img {
+    width: 100%;
+    border-radius: 8px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+  }
+}
+
+.team-section {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 1rem;
+  
+  h2 {
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 2rem;
+    color: $secondary-dark;
+  }
+}
+
+.team-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 2rem;
+}
