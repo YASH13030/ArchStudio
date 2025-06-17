@@ -1,6 +1,6 @@
 import { motion } from 'framer-motion';
 import { useForm } from 'react-hook-form';
-import './Contact.scss';
+import './Contact.css';
 
 type FormData = {
   name: string;

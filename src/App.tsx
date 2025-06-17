@@ -7,7 +7,7 @@ import Studio from './pages/Studio/Studio';
 import Contact from './pages/Contact/Contact';
 import Navbar from './components/common/Navbar';
 import Footer from './components/common/Footer';
-import './assets/styles/main.scss';
+import './assets/styles/main.css';
 
 function App() {
   return (

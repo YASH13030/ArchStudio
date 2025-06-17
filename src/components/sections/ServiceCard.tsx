@@ -1,5 +1,5 @@
 import { motion } from 'framer-motion';
-import './ServiceCard.scss';
+import './ServiceCard.css';
 
 interface Service {
   title: string;

@@ -1,5 +1,5 @@
 import { motion } from 'framer-motion';
-import './TeamMember.scss';
+import './TeamMember.css';
 
 interface TeamMember {
   name: string;

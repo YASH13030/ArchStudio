@@ -1,6 +1,6 @@
 import { motion } from 'framer-motion';
 import heroImage from '../../assets/images/hero-background.jpg';
-import './Hero.scss';
+import './Hero.css';
 
 const Hero = () => {
   return (

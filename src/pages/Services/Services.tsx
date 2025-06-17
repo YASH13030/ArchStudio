@@ -1,6 +1,6 @@
 import { motion } from 'framer-motion';
 import ServiceCard from '../../components/sections/ServiceCard';
-import './Services.scss';
+import './Services.css';
 
 const services = [
   {

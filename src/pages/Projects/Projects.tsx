@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import { motion } from 'framer-motion';
 import ProjectCard from '../../components/sections/ProjectCard';
-import './Projects.scss';
+import './Projects.css';
 
 const projects = [
   {

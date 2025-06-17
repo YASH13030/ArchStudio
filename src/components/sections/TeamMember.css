@@ -1,0 +1,50 @@
+.team-member {
+  background-color: #ffffff; /* secondary-light */
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.team-member:hover {
+  box-shadow: 0 10px 15px rgba(0, 0, 0, 0.1);
+  transform: translateY(-5px); /* Added hover lift effect */
+}
+
+.member-image {
+  height: 300px;
+}
+
+.member-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.5s ease; /* Added smooth image transition */
+}
+
+.team-member:hover .member-image img {
+  transform: scale(1.03); /* Subtle zoom effect on hover */
+}
+
+.member-info {
+  padding: 1.5rem;
+}
+
+.member-info h3 {
+  font-size: 1.25rem;
+  margin-bottom: 0.5rem;
+  color: #333333; /* secondary-dark */
+  font-family: 'Playfair Display', serif; /* Added font family */
+}
+
+.member-info .role {
+  color: #a68a64; /* accent */
+  font-weight: 500;
+  margin-bottom: 1rem;
+  font-family: 'Montserrat', sans-serif; /* Added font family */
+}
+
+.member-info .bio {
+  color: #666666; /* lighten(secondary-dark, 20%) */
+  line-height: 1.5;
+}

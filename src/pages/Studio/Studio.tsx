@@ -1,6 +1,6 @@
 import { motion } from 'framer-motion';
 import TeamMember from '../../components/sections/TeamMember';
-import './Studio.scss';
+import './Studio.css';
 
 const team = [
   {

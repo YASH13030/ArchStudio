@@ -4,7 +4,7 @@ import Hero from '../../components/sections/Hero';
 import ProjectCard from '../../components/sections/ProjectCard';
 import ServiceCard from '../../components/sections/ServiceCard';
 import TeamMember from '../../components/sections/TeamMember';
-import './Home.scss';
+import './Home.css';
 
 const Home = () => {
   const [ref, inView] = useInView({

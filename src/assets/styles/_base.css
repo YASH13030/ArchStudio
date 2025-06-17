@@ -5,16 +5,16 @@
 }
 
 body {
-  font-family: $font-sans;
-  background-color: $primary-light;
-  color: $secondary-dark;
+  font-family: 'Montserrat', sans-serif;
+  background-color: #f5f0e6;
+  color: #333333;
   line-height: 1.6;
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: $font-serif;
+  font-family: 'Playfair Display', serif;
   font-weight: 600;
-  margin-bottom: $spacing-sm;
+  margin-bottom: 1rem;
 }
 
 a {
@@ -26,19 +26,19 @@ a {
   width: 100%;
   max-width: 1200px;
   margin: 0 auto;
-  padding: 0 $spacing-md;
+  padding: 0 2rem;
 }
 
-// Scrollbar styling
+/* Scrollbar styling */
 ::-webkit-scrollbar {
   width: 8px;
 }
 
 ::-webkit-scrollbar-track {
-  background: $primary-light;
+  background: #f5f0e6;
 }
 
 ::-webkit-scrollbar-thumb {
-  background: $primary-dark;
+  background: #d4b483;
   border-radius: 4px;
 }

@@ -1,6 +1,6 @@
 import { motion } from 'framer-motion';
 import { Link } from 'react-router-dom';
-import './ProjectCard.scss';
+import './ProjectCard.css';
 
 interface Project {
   id: number;

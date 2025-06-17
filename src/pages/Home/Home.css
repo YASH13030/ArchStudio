@@ -1,0 +1,25 @@
+.home-page {
+  overflow: hidden;
+}
+
+.section {
+  padding: 5rem 0;
+}
+
+.section.featured-projects {
+  background-color: #f5f0e6; /* primary-light */
+}
+
+.section.services-preview {
+  background-color: #e6d5b8; /* primary-default */
+}
+
+.section.testimonials {
+  background-color: #f5f0e6; /* primary-light */
+}
+
+@media (max-width: 768px) { /* breakpoint-md */
+  .section {
+    padding: 3rem 0;
+  }
+}
