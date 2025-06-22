@@ -1,7 +1,7 @@
 import { motion } from 'framer-motion';
 import './TeamMember.css';
 
-interface TeamMember {
+interface TeamMemberData {
   name: string;
   role: string;
   bio: string;
@@ -9,7 +9,7 @@ interface TeamMember {
 }
 
 interface TeamMemberProps {
-  member: TeamMember;
+  member: TeamMemberData;
 }
 
 const TeamMember = ({ member }: TeamMemberProps) => {

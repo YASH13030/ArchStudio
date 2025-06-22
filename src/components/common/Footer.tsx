@@ -8,10 +8,10 @@ const Footer = () => {
           <h3>ARCHSTUDIO</h3>
           <p>Creating spaces that inspire and endure.</p>
           <div className="social-links">
-            <a href="#">FB</a>
-            <a href="#">IG</a>
-            <a href="#">LI</a>
-            <a href="#">TW</a>
+            <a href="https://www.facebook.com/">FB</a>
+            <a href="https://www.instagram.com/?hl=en">IG</a>
+            <a href="https://www.linkedin.com/">LI</a>
+            <a href="https://x.com/">TW</a>
           </div>
         </div>
         
